@@ -1,0 +1,122 @@
+body 
+{
+    width:80%;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #989898;
+	background: #000000;
+    text-align: center;
+}
+
+
+#container {
+	width: 1348px;
+	margin: 0 auto;
+	padding: 0 30px 10px 30px;
+} 
+
+#header {
+	color: #edad0f;
+	font-size: 50px;
+	font-weight: bold;
+	width: 1348px;
+	height: 54px;
+	margin: 0px;
+	padding: 120px 20px 0 0;
+	text-align: center;
+	background: url(images/banner_blank.jpg) no-repeat;
+}
+
+p {
+	margin: 15px 0px 0px 0px;
+	padding: 0 0 0 0;
+	font-size: 11px;
+	
+}
+#menu{
+	float: left;
+	width: 1348px;
+	height: 80px;
+	background: url(images/menu_bg.jpg) no-repeat;
+}
+
+#menu ul {
+	width: 1048px;
+	margin: 36px 0 0 260px;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	float: left;
+	padding: 0;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	background: url('images/menu_divider.gif') repeat-y right top;
+	color: #ffffff;
+	font-weight: bold;
+	outline: none;
+    width: 172px;
+    height: 1px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#menu li a:hover, #menu li .current{
+	color: #edad0f;
+}
+
+#content_wrapper
+{
+    background-position: center center;
+    float: left;
+    clear: both;
+    width: 1348px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(images/content_repeat.jpg) repeat-y;
+    color: #edad0f;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    padding: 20px 20px 0 0px;
+}
+
+#content .content_title_01{
+	color: #edad0f;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	width: 1348px;
+	height: 178px;
+	margin: 0px;
+	padding: 20px 0 0 0px;
+}
+
+
+#footer 
+{ 
+    float: left;
+    width: 1378px;
+	padding: 25px 0 0 0;
+	margin: 0px;
+	height: 75px;
+	color: #eca90e;
+	text-align: center;	
+	background: url('images/footer.jpg') no-repeat;
+	
+	
+}

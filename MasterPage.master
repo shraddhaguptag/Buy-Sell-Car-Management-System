@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Car Dealer</title>
+    <meta name="keywords" content="free css template, car online, automobile, CSS, XHTML" />
+    <meta name="description" content="Car Online - free website template provided by templatemo.com" />
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #wrapper
+        {
+            width: 1327px;
+        }
+        .style2
+        {
+            width: 287px;
+            height: 294px;
+        }
+        #form3
+        {
+            text-align: left;
+        }
+        </style>
+</head>
+
+<body>
+<div id="header">CAR DEALER<p>We deal with the Best Cars...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  India<font color:"white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#CC9900" 
+        NavigateUrl="~/Login.aspx">Login</asp:HyperLink>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink2" 
+        runat="server" ForeColor="#CC9900" NavigateUrl="~/Registration.aspx">Sign Up</asp:HyperLink>
+    </font></p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="Home.aspx">Home</a></li>
+            <li><a href="SellCar.aspx">Sell</a></li>
+            <li><a href="SearchCar.aspx">Buy</a></li>
+            <li><a href="AdminLogin.aspx">Management</a></li>
+            <li><a href="Contact.aspx">Contact Us</a></li>
+             </ul>
+    </div> 
+    <div id="wrapper" align="center" 
+        
+        
+        style="font-size: 18px; font-weight: bold; font-style: italic; color: #CC9900; text-align: center; height: 330px;">We're building a radically transparent and easy way to BUY & SELL Used Cars !
+            <div id="content" 
+            style="width: 984px; float: left;padding-right:10px;padding-left:45px"><form id="form3" runat="server">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    </form></div>
+                    <img alt="1" class="style2" src="images/1.jpg" align="right" />
+                    <p style="font-size: 14px; font-weight: bold; font-style: italic; color: #CC9900; text-align: center; ">
+                        &nbsp;</p>
+        
+    </div>
+    <div id="footer">Copyright © 2016 Car Dealer | SulmaShraddha</div>
+</body>
+</html>
